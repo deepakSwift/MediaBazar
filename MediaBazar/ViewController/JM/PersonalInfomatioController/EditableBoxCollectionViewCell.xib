@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EditableBoxCollectionViewCell" id="gTV-IL-0wX" customClass="EditableBoxCollectionViewCell" customModule="_WH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vf6-Pi-wAk">
+                        <rect key="frame" x="1" y="10" width="414" height="96"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAI-z3-nhP" customClass="RoundButton" customModule="_WH" customModuleProvider="target">
+                        <rect key="frame" x="409" y="4" width="12" height="12"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="Cvo-lm-fUY"/>
+                            <constraint firstAttribute="width" constant="12" id="LOw-4Z-jaB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="x"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vf6-Pi-wAk" secondAttribute="bottom" constant="1" id="Prw-Do-clc"/>
+                <constraint firstItem="vf6-Pi-wAk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="UgK-aU-4di"/>
+                <constraint firstItem="uAI-z3-nhP" firstAttribute="centerY" secondItem="vf6-Pi-wAk" secondAttribute="top" id="VlZ-7P-Cnm"/>
+                <constraint firstItem="vf6-Pi-wAk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="kVs-U1-2yk"/>
+                <constraint firstItem="uAI-z3-nhP" firstAttribute="centerX" secondItem="vf6-Pi-wAk" secondAttribute="trailing" id="pSf-Zu-nFP"/>
+                <constraint firstAttribute="trailing" secondItem="vf6-Pi-wAk" secondAttribute="trailing" constant="10" id="qef-hz-V9B"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="425" height="107"/>
+            <connections>
+                <outlet property="aoiLabel" destination="vf6-Pi-wAk" id="AgM-JL-mEg"/>
+                <outlet property="deleteButton" destination="uAI-z3-nhP" id="RUe-el-XWJ"/>
+            </connections>
+            <point key="canvasLocation" x="193.47826086956522" y="7.03125"/>
+        </collectionViewCell>
+    </objects>
+</document>

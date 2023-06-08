@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReviewTableCell" rowHeight="99" id="KGk-i7-Jjw" customClass="ReviewTableCell" customModule="MediaBazar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PzP-9h-OHV">
+                        <rect key="frame" x="0.0" y="0.0" width="423" height="99"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-1505503693641-1926193e8d57" translatesAutoresizingMaskIntoConstraints="NO" id="k3V-yJ-QXB">
+                                <rect key="frame" x="10" y="10" width="70" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="BUj-UK-AJt"/>
+                                    <constraint firstAttribute="height" constant="80" id="yVB-7e-ogw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Albert soahn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipD-P3-ueQ">
+                                <rect key="frame" x="95" y="10" width="80.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English | 2 days ago | New York" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udK-mj-20b">
+                                <rect key="frame" x="95" y="32" width="120" height="11"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGe-h6-GlK">
+                                <rect key="frame" x="95" y="53" width="318" height="43.5"/>
+                                <string key="text">Lifestyle is expressed in both work and leisure behaviour patterns and (on an individual basis) in activities,  attitudes, interests, opinions, values, and allocation of  income.It also reflects people’s self image or  self  concept; the way they see themselves and believe they are seen by the other.
+</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZ3-K9-9fe">
+                                <rect key="frame" x="380" y="13" width="13" height="11"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="9"/>
+                                <color key="textColor" red="0.61960784313725492" green="0.1764705882352941" blue="0.12156862745098039" alpha="0.62404614825581395" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="x2f-QJ-npN">
+                                <rect key="frame" x="398" y="13.5" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="3aF-7X-wrZ"/>
+                                    <constraint firstAttribute="width" constant="10" id="h48-DG-hBq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="0.62404614825581395" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hGe-h6-GlK" firstAttribute="top" secondItem="udK-mj-20b" secondAttribute="bottom" constant="10" id="6LT-2Q-9XF"/>
+                            <constraint firstAttribute="trailing" secondItem="x2f-QJ-npN" secondAttribute="trailing" constant="15" id="AFu-6T-shp"/>
+                            <constraint firstItem="uZ3-K9-9fe" firstAttribute="centerY" secondItem="x2f-QJ-npN" secondAttribute="centerY" id="BTE-qI-nAW"/>
+                            <constraint firstItem="x2f-QJ-npN" firstAttribute="leading" secondItem="uZ3-K9-9fe" secondAttribute="trailing" constant="5" id="DSr-RO-P11"/>
+                            <constraint firstItem="udK-mj-20b" firstAttribute="leading" secondItem="k3V-yJ-QXB" secondAttribute="trailing" constant="15" id="DeX-Kt-Lns"/>
+                            <constraint firstAttribute="trailing" secondItem="hGe-h6-GlK" secondAttribute="trailing" constant="10" id="Ekv-4S-u5n"/>
+                            <constraint firstItem="ipD-P3-ueQ" firstAttribute="top" secondItem="k3V-yJ-QXB" secondAttribute="top" id="Hd0-DZ-3wc"/>
+                            <constraint firstItem="hGe-h6-GlK" firstAttribute="leading" secondItem="k3V-yJ-QXB" secondAttribute="trailing" constant="15" id="LhO-4i-GBG"/>
+                            <constraint firstAttribute="bottom" secondItem="k3V-yJ-QXB" secondAttribute="bottom" constant="9" id="P4f-CR-CdC"/>
+                            <constraint firstItem="ipD-P3-ueQ" firstAttribute="leading" secondItem="k3V-yJ-QXB" secondAttribute="trailing" constant="15" id="Que-Dm-33u"/>
+                            <constraint firstItem="k3V-yJ-QXB" firstAttribute="top" secondItem="PzP-9h-OHV" secondAttribute="top" constant="10" id="TFW-y3-zac"/>
+                            <constraint firstItem="k3V-yJ-QXB" firstAttribute="leading" secondItem="PzP-9h-OHV" secondAttribute="leading" constant="10" id="fPL-b0-JUU"/>
+                            <constraint firstItem="x2f-QJ-npN" firstAttribute="centerY" secondItem="ipD-P3-ueQ" secondAttribute="centerY" id="nXJ-lv-5xj"/>
+                            <constraint firstItem="udK-mj-20b" firstAttribute="top" secondItem="ipD-P3-ueQ" secondAttribute="bottom" constant="5" id="tSB-AG-36R"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PzP-9h-OHV" secondAttribute="trailing" id="2jv-MY-GAz"/>
+                    <constraint firstItem="PzP-9h-OHV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YFJ-mp-DR7"/>
+                    <constraint firstAttribute="bottom" secondItem="PzP-9h-OHV" secondAttribute="bottom" id="apa-rG-KcL"/>
+                    <constraint firstItem="PzP-9h-OHV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="iEB-Na-kkd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewProfile" destination="k3V-yJ-QXB" id="3Ly-p7-MgO"/>
+                <outlet property="labelDetails" destination="hGe-h6-GlK" id="OSa-Kr-bcM"/>
+                <outlet property="labelName" destination="ipD-P3-ueQ" id="Kqo-Bt-Ti8"/>
+                <outlet property="labelRating" destination="uZ3-K9-9fe" id="ATH-VA-POv"/>
+                <outlet property="labelTime" destination="udK-mj-20b" id="9VK-3O-W1Z"/>
+            </connections>
+            <point key="canvasLocation" x="212.31884057971016" y="135.60267857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="photo-1505503693641-1926193e8d57" width="66" height="80"/>
+        <image name="star" width="8" height="8"/>
+    </resources>
+</document>

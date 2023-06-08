@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>455123326049-iirc6smv1po5lu4c7u0opsjvo7gee3hj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.455123326049-iirc6smv1po5lu4c7u0opsjvo7gee3hj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>455123326049-c5fbnque23fahdcfejatnr4dfvssojan.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABljkSFzIIfap75uXiqb8-T_WV5eEHI3o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>455123326049</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>media.MediaBazar</string>
+	<key>PROJECT_ID</key>
+	<string>mediabazaar-c20a3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mediabazaar-c20a3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:455123326049:ios:e08fd693f19fcda3930620</string>
+	<key>DATABASE_URL</key>
+	<string>https://mediabazaar-c20a3.firebaseio.com</string>
+</dict>
+</plist>

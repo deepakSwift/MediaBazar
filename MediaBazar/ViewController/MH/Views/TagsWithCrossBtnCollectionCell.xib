@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TagsWithCrossBtnCollectionCell" id="gTV-IL-0wX" customClass="TagsWithCrossBtnCollectionCell" customModule="MediaBazar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="55" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="55" height="61"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cnw-8p-lPP">
+                        <rect key="frame" x="0.0" y="0.0" width="55" height="61"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bka-sJ-HBT">
+                                <rect key="frame" x="10" y="18" width="35" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="lk0-RL-bjI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <state key="normal" title="Tag">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEH-XU-sPZ">
+                                <rect key="frame" x="40" y="13" width="10" height="10"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="D7H-8J-Qo0"/>
+                                    <constraint firstAttribute="width" constant="10" id="dTh-B1-U0S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cEH-XU-sPZ" firstAttribute="top" secondItem="bka-sJ-HBT" secondAttribute="top" constant="-5" id="85c-gI-sGf"/>
+                            <constraint firstAttribute="trailing" secondItem="bka-sJ-HBT" secondAttribute="trailing" constant="10" id="SYP-9p-LbX"/>
+                            <constraint firstItem="bka-sJ-HBT" firstAttribute="leading" secondItem="Cnw-8p-lPP" secondAttribute="leading" constant="10" id="elF-a6-WLd"/>
+                            <constraint firstItem="cEH-XU-sPZ" firstAttribute="leading" secondItem="bka-sJ-HBT" secondAttribute="trailing" constant="-5" id="wbG-gn-rX1"/>
+                            <constraint firstItem="bka-sJ-HBT" firstAttribute="centerY" secondItem="Cnw-8p-lPP" secondAttribute="centerY" id="zsS-ql-JtT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cnw-8p-lPP" secondAttribute="bottom" id="0kJ-IS-yVL"/>
+                <constraint firstItem="Cnw-8p-lPP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SW8-bh-m19"/>
+                <constraint firstAttribute="trailing" secondItem="Cnw-8p-lPP" secondAttribute="trailing" id="tEq-h2-D5k"/>
+                <constraint firstItem="Cnw-8p-lPP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wVY-OF-JJz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="55" height="61"/>
+            <connections>
+                <outlet property="buttonCancel" destination="cEH-XU-sPZ" id="pgJ-aA-Fqa"/>
+                <outlet property="buttonTag" destination="bka-sJ-HBT" id="9Ee-sw-YYH"/>
+                <outlet property="conatinerView" destination="Cnw-8p-lPP" id="bc0-b1-7t5"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="121.54017857142857"/>
+        </collectionViewCell>
+    </objects>
+</document>

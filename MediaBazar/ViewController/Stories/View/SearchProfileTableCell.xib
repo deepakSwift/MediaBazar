@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+        <array key="PlayfairDisplay-Bold.ttf">
+            <string>PlayfairDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchProfileTableCell" rowHeight="211" id="KGk-i7-Jjw" customClass="SearchProfileTableCell" customModule="MediaBazar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="454" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="454" height="210.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3H-vM-cC8">
+                        <rect key="frame" x="0.0" y="0.0" width="454" height="210.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-1505503693641-1926193e8d57" translatesAutoresizingMaskIntoConstraints="NO" id="CWo-DT-lx0">
+                                <rect key="frame" x="0.0" y="10" width="80" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="C2t-sd-kFT"/>
+                                    <constraint firstAttribute="height" constant="100" id="uxt-pS-O9e"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Albert soahn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Daj-hK-E4C">
+                                <rect key="frame" x="95" y="10" width="117.5" height="27"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzj-Kk-kKN">
+                                <rect key="frame" x="95" y="39" width="41" height="16"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India | Noida (201301)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjc-u3-02j">
+                                <rect key="frame" x="95" y="57" width="127.5" height="16"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2t-yG-5Ja">
+                                <rect key="frame" x="0.0" y="125" width="454" height="65.5"/>
+                                <string key="text">Lifestyle is expressed in both work and leisure behaviour patterns and (on an individual basis) in activities,  attitudes, interests, opinions, values, and allocation of  income.It also reflects people’s self image or  self  concept; the way they see themselves and believe they are seen by the other.
+</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.22352941176470587" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F54-5M-DLT">
+                                <rect key="frame" x="95" y="87" width="90" height="23"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="0N8-Is-g9D"/>
+                                    <constraint firstAttribute="height" constant="23" id="dkX-NT-oLI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="11"/>
+                                <state key="normal" title="View Full Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35v-hg-nxy">
+                                <rect key="frame" x="429" y="12.5" width="25" height="22"/>
+                                <state key="normal" image="asset-1"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F54-5M-DLT" firstAttribute="bottom" secondItem="CWo-DT-lx0" secondAttribute="bottom" id="12s-3s-Lsy"/>
+                            <constraint firstAttribute="trailing" secondItem="35v-hg-nxy" secondAttribute="trailing" id="4Ta-vk-3qd"/>
+                            <constraint firstItem="CWo-DT-lx0" firstAttribute="top" secondItem="g3H-vM-cC8" secondAttribute="top" constant="10" id="BYL-Jg-g01"/>
+                            <constraint firstAttribute="bottom" secondItem="b2t-yG-5Ja" secondAttribute="bottom" constant="20" id="LYM-kB-Kdj"/>
+                            <constraint firstItem="Daj-hK-E4C" firstAttribute="leading" secondItem="CWo-DT-lx0" secondAttribute="trailing" constant="15" id="Ojb-Ly-V3r"/>
+                            <constraint firstItem="Daj-hK-E4C" firstAttribute="top" secondItem="CWo-DT-lx0" secondAttribute="top" id="Olv-YI-h9M"/>
+                            <constraint firstItem="F54-5M-DLT" firstAttribute="leading" secondItem="CWo-DT-lx0" secondAttribute="trailing" constant="15" id="Rjg-gv-ZND"/>
+                            <constraint firstItem="Wjc-u3-02j" firstAttribute="leading" secondItem="CWo-DT-lx0" secondAttribute="trailing" constant="15" id="SgC-Mr-ERy"/>
+                            <constraint firstItem="fzj-Kk-kKN" firstAttribute="top" secondItem="Daj-hK-E4C" secondAttribute="bottom" constant="2" id="aiD-UM-GgW"/>
+                            <constraint firstItem="fzj-Kk-kKN" firstAttribute="leading" secondItem="CWo-DT-lx0" secondAttribute="trailing" constant="15" id="bJc-mO-XY8"/>
+                            <constraint firstItem="35v-hg-nxy" firstAttribute="centerY" secondItem="Daj-hK-E4C" secondAttribute="centerY" id="dOR-6l-mXP"/>
+                            <constraint firstItem="b2t-yG-5Ja" firstAttribute="top" secondItem="CWo-DT-lx0" secondAttribute="bottom" constant="15" id="jYv-9w-0mK"/>
+                            <constraint firstItem="CWo-DT-lx0" firstAttribute="leading" secondItem="g3H-vM-cC8" secondAttribute="leading" id="knj-yP-m7r"/>
+                            <constraint firstItem="Wjc-u3-02j" firstAttribute="top" secondItem="fzj-Kk-kKN" secondAttribute="bottom" constant="2" id="no1-kZ-IxP"/>
+                            <constraint firstItem="b2t-yG-5Ja" firstAttribute="leading" secondItem="g3H-vM-cC8" secondAttribute="leading" id="r2R-5l-EKO"/>
+                            <constraint firstAttribute="trailing" secondItem="b2t-yG-5Ja" secondAttribute="trailing" id="zHP-dF-oIM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g3H-vM-cC8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B15-WJ-xfh"/>
+                    <constraint firstItem="g3H-vM-cC8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cnY-i7-rvQ"/>
+                    <constraint firstAttribute="bottom" secondItem="g3H-vM-cC8" secondAttribute="bottom" id="jNk-9P-uTE"/>
+                    <constraint firstAttribute="trailing" secondItem="g3H-vM-cC8" secondAttribute="trailing" id="rAz-UE-nAL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonChat" destination="35v-hg-nxy" id="tEV-4V-6u6"/>
+                <outlet property="buttonViewProfile" destination="F54-5M-DLT" id="psX-nd-KoV"/>
+                <outlet property="imageViewSetImg" destination="CWo-DT-lx0" id="2zv-A7-omt"/>
+                <outlet property="labelAddress" destination="Wjc-u3-02j" id="Dv9-Ch-sAH"/>
+                <outlet property="labelDescription" destination="b2t-yG-5Ja" id="JCC-3K-gXm"/>
+                <outlet property="labelLanguage" destination="fzj-Kk-kKN" id="WBZ-75-3Yb"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="91.40625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="asset-1" width="25" height="19"/>
+        <image name="photo-1505503693641-1926193e8d57" width="66" height="80"/>
+    </resources>
+</document>
